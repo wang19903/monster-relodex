@@ -1,5 +1,6 @@
 .card-container {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   background-color: #95dada;
   border: 1px solid grey;
@@ -9,9 +10,13 @@
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
-  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;/**/
 }
 
 .card-container:hover {
   transform: scale(1.05);
+}
+
+p{
+    word-wrap: break-word;/**/
 }
